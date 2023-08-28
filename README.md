@@ -10,7 +10,7 @@
 
 
 ## 2022 List Page
-![laporan2022](https://github.com/rizkiwnf/venturo-test/assets/85826050/0d1a8354-08c0-434f-b371-4baf998afcd7)
+![laporan2022](https://github.com/rizkiwnf/venturo-test/assets/85826050/95130df2-fcd4-42aa-b7dd-36a2252dea10)
 ## 2022 Transaksi
 ![transaksi2022](https://github.com/rizkiwnf/venturo-test/assets/85826050/a8a341be-1d52-44af-9560-b957ef328542)
 
