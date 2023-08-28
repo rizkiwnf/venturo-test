@@ -36,12 +36,13 @@
                         </div>
                         <div class="button-menu">
                             <button type="button" class="bg-secondary px-4 py-2 fw-bold border-0 rounded"><a
-                                    href="/intermediate/menu" class=" text-light text-decoration-none">JSON
+                                    href="/intermediate/menu" target="_blank"
+                                    class=" text-light text-decoration-none">JSON
                                     Menu</a></button>
                         </div>
                         <div class="button-transaksi">
                             <button type="button" class="bg-secondary px-4 py-2 fw-bold border-0 rounded"><a
-                                    href="/intermediate/transaksi/{{ $year }}"
+                                    href="/intermediate/transaksi/{{ $year }}" target="_blank"
                                     class=" text-light text-decoration-none">JSON Transaksi</a></button>
                         </div>
                         <div class="button-download">
@@ -195,7 +196,11 @@
                                     @php
                                         $totalByMenu += $totalByMonth;
                                     @endphp
-                                    <td class="fw-bold text-end">{{ number_format($totalByMonth) }}</td>
+                                    @if ($totalByMonth != 0)
+                                        <td class="fw-bold text-end">{{ number_format($totalByMonth) }}</td>                                        
+                                    @else
+                                    <td class="fw-bold text-end"> </td>
+                                    @endif
                                 @endforeach
                                 <td style="text-align: right;"><b>{{ number_format($totalByMenu) }}</b></td>
                             </tr>
